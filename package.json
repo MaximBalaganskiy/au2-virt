@@ -1,9 +1,10 @@
 {
   "dependencies": {
-    "@aurelia-mdc-web/all": "9.3.5-au2",
+    "@aurelia-mdc-web/all": "9.3.6-au2",
     "@aurelia/router": "2.0.0-beta.24",
     "@aurelia/validation": "2.0.0-beta.24",
     "@aurelia/validation-html": "^2.0.0-beta.24",
+    "@aurelia/ui-virtualization": "^2.0.0-beta.24",
     "aurelia": "2.0.0-beta.24"
   },
   "devDependencies": {
