@@ -1,15 +1,15 @@
 {
   "dependencies": {
-    "@aurelia-mdc-web/all": "9.3.6-au2",
-    "@aurelia/router": "2.0.0-beta.24",
-    "@aurelia/validation": "2.0.0-beta.24",
-    "@aurelia/validation-html": "^2.0.0-beta.24",
-    "@aurelia/ui-virtualization": "^2.0.0-beta.24",
-    "aurelia": "2.0.0-beta.24"
+    "@aurelia-mdc-web/all": "9.3.7-au2",
+    "@aurelia/router": "2.0.0-beta.25",
+    "@aurelia/validation": "2.0.0-beta.25",
+    "@aurelia/validation-html": "^2.0.0-beta.25",
+    "@aurelia/ui-virtualization": "^2.0.0-beta.25",
+    "aurelia": "2.0.0-beta.25"
   },
   "devDependencies": {
-    "@aurelia/testing": "2.0.0-beta.24",
-    "@aurelia/vite-plugin": "2.0.0-beta.24",
+    "@aurelia/testing": "2.0.0-beta.25",
+    "@aurelia/vite-plugin": "2.0.0-beta.25",
     "@types/node": "^22.15.2",
     "@typescript-eslint/eslint-plugin": "^8.31.0",
     "@typescript-eslint/parser": "^8.31.0",
@@ -39,5 +39,14 @@
     "lint": "npm run lint:js && npm run lint:html && npm run lint:css",
     "start": "vite",
     "build": "vite build"
+  },
+  "resolutions": {
+    "@aurelia/router": "2.0.0-beta.25",
+    "@aurelia/validation": "2.0.0-beta.25",
+    "@aurelia/validation-html": "^2.0.0-beta.25",
+    "@aurelia/ui-virtualization": "^2.0.0-beta.25",
+    "@aurelia/testing": "2.0.0-beta.25",
+    "@aurelia/vite-plugin": "2.0.0-beta.25",
+    "aurelia": "2.0.0-beta.25"
   }
 }
