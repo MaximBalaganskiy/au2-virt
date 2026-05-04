@@ -10,4 +10,10 @@ export class Dashboard {
     }
 
     items = Array.from({length: 1000}).map((x,i)=>({id: i, label:`Item ${i}`}));
+
+    items2 = [1,2,3];
+
+    addItem(){
+        this.items2.push(4);
+    }
 }
